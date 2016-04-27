@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <Button
+        android:onClick="menuRetornoBusca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:id="@+id/button2" />
+    <TextView
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10px"
+        android:layout_marginBottom="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:textSize="20dp"
+        android:id="@+id/titulo" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:id="@+id/imagem"
+        android:layout_weight="0.10" />
+
+    <TextView
+        android:layout_marginTop="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A Capela Dourada, consagrada como um dos monumentos barrocos mais importantes do Brasil, possui cobertura de finas camadas de ouro de cima a baixo. Sua construção foi iniciada no fim do século XVII e finalizada em 1724. A capela também possui uma bela imagem de Cristo Crucificado e belas pinturas em seu forro."
+        android:id="@+id/texto" />
+</LinearLayout>
