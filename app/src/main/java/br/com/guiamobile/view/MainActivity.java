@@ -17,7 +17,6 @@ public class MainActivity extends Activity {
     private EditText textoBuscar;
     private static final int BUSCAR = 1;
 
-    //sem comentarios
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
